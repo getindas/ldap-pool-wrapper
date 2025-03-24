@@ -1,0 +1,39 @@
+{
+  "name": "ldap-pool-wrapper",
+  "version": "0.0.1017",
+  "description": "LDAP client connection pool",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "./scripts/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getindas/ldap-pool-wrapper.git"
+  },
+  "scripts": {
+  "build": "tsc"
+},
+  "keywords": [
+    "ldap",
+    "pool",
+    "client",
+    "connection",
+    "ldapjs"
+  ],
+  "author": "Shobha Nand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getindas/ldap-pool-wrapper/issues"
+  },
+  "homepage": "https://github.com/getindas/ldap-pool-wrapper#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "ldapjs": "^3.0.7"
+  },
+  "devDependencies": {
+    "@types/ldapjs": "^1.0.3",
+    "@types/node": "^7.0.63"
+  }
+}

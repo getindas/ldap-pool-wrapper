@@ -1,0 +1,22 @@
+
+### folders
+node_modules
+.idea
+src
+scripts
+.vscode
+test
+
+### files
+.npmignore
+.gitignore
+.editorconfig
+suman.conf.js
+
+### matching
+*.json
+*.log
+*.sh
+*.md
+*.txt
+*.tgz
